@@ -10,6 +10,7 @@ body{
   margin-left: 160px;
 
   }
+
 ul {
     list-style-type: none;
     margin-right:  160px;
@@ -69,18 +70,6 @@ h2{
   font-style:sans-serif;
 }
 
-/* .information{
-  background-color:#10223A; 
-  position:absolute;
-  top:306px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 840px;
-  padding: 20px;
-  text-align: center;
-
-} */
-
 .information{
   background-color:#10223A; 
   position:absolute;
@@ -95,17 +84,22 @@ h2{
   margin-top:200px;
 }
 
-/* clearfix (clear floats) */
-.row::after{
+/* clearfix (clear floats)  */
+ .row::after{
   content:"";
   clear:both;
   display:table;
 }
 
+.row{
+  display:flex;
+}
+
 .column{
-  float: left;
-  width: 10px;
+  flex:5px;
   padding: 5px;
 }
+
+
 
 
