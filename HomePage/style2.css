@@ -58,6 +58,7 @@ body{
 .navbar ul{
   padding-left:20em;
   line-height:1em;
+  margin-left:3em;
   /* border:1px solid #F8FFFD; */
   /* border-spacing:5px; */
   /* box-sizing: border-box; */
@@ -71,6 +72,7 @@ body{
     text-decoration: none;
     cursor: pointer;
     font-family:Trebuchet MS;
+
     } 
   
   .navbar ul li:after{
@@ -89,7 +91,8 @@ body{
   .navbar ul li a:hover{
     background-color:#486881;
     color:#EDF0F5;
-    padding:opx;
+    padding:5px;
+    border-radius:5px;
     }
           
 .content{

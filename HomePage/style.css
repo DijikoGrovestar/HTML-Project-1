@@ -66,6 +66,7 @@ border: 1px solid #000;
 .navbar ul{
 padding-left:20em;
 line-height:1em;
+margin-left:3em;
 }
 
 .navbar ul li{
@@ -93,7 +94,8 @@ font-family:Trebuchet MS;
 .navbar ul li a:hover{
 background-color:#486881;
 color:#EDF0F5;
-padding:opx;
+padding:5px;
+border-radius:5px;
 }
  
 .banner{
