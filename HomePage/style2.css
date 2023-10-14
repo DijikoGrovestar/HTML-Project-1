@@ -68,14 +68,14 @@ border-spacing:15px;
 
   .navbar ul li{
     display: inline;
-  
+
   }
   .navbar ul li a{
     color:#8CB0CA;
     text-decoration: none;
     cursor: pointer;
     font-family:Trebuchet MS;
-  
+ 
     } 
   
   .navbar ul li:after{
@@ -95,7 +95,7 @@ border-spacing:15px;
   .navbar ul li a:hover{
     background-color:#486881;
     color:#EDF0F5;
-    padding:5px;
+    padding:5px 15px;
     border-radius:5px;
     
     }
@@ -145,11 +145,12 @@ justify-content: space-around;
  }
 
 .headingcolor{
-  color:#8CB0CA;
+  color:#BDD8F3;
   font-family:Trebuchet MS;
-  font-weight: lighter;
+  font-weight:bold;
   margin-top:0px;
   text-indent:8px;
+  letter-spacing:1px;
 }
 
 .services-info{
