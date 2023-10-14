@@ -46,7 +46,8 @@ body{
         margin-top:2em;
         padding:5px;
         clear:both; 
-/* border: 1px solid #000;  */
+border: 1px solid #000; 
+border-spacing:15px;
         } 
         
 .navbar img{
@@ -59,6 +60,7 @@ body{
   padding-left:20em;
   line-height:1em;
   margin-left:3em;
+
   /* border:1px solid #F8FFFD; */
   /* border-spacing:5px; */
   /* box-sizing: border-box; */
@@ -66,13 +68,14 @@ body{
 
   .navbar ul li{
     display: inline;
+  
   }
   .navbar ul li a{
     color:#8CB0CA;
     text-decoration: none;
     cursor: pointer;
     font-family:Trebuchet MS;
-
+  
     } 
   
   .navbar ul li:after{
@@ -80,6 +83,7 @@ body{
     padding-left:8px;
     padding:0px 1em;
         color:#FFFFFF;
+      
   }
   
   
@@ -93,6 +97,7 @@ body{
     color:#EDF0F5;
     padding:5px;
     border-radius:5px;
+    
     }
           
 .content{
@@ -109,6 +114,26 @@ justify-content: space-around;
   padding:20px;
 }
 
+.image-section-links{
+  border:20px 0px;
+  color:red;
+}
+
+.image-section-links ol{
+  list-style: none;
+  margin-top:0px;
+  line-height:24px;
+  padding:0px;
+}
+
+.image-section-links a{
+  color:#CAE4FD;
+  font-family: Trebuchet MS;
+  justify-content:flex-start;
+  margin-left:2px;
+
+}
+
  .image{
   margin-bottom:10px;
   padding-top: 5px;
@@ -123,6 +148,8 @@ justify-content: space-around;
   color:#8CB0CA;
   font-family:Trebuchet MS;
   font-weight: lighter;
+  margin-top:0px;
+  text-indent:8px;
 }
 
 .services-info{
@@ -134,16 +161,35 @@ justify-content: space-around;
 }
 
 .services-content ul{
-  padding-left:30px;
+  padding-left:45px;
 }
 
 .services-content li{
-  padding-left:30px;
+  padding-left:0px;
   color:#FFFFFF;
   line-height:20px;
   font-size:14px;
   font-family:Trebuchet MS;
 }
+
+.request p{
+  font-family:Trebuchet MS;
+  font-size:14px;
+  color:#FFFFFF;
+  padding-top: 25px;
+  padding-left:3em;
+}
+
+.contact-button{
+  font-family:Trebuchet MS;
+  font-size:14px;
+  background-color:#2A4F7B;
+  color:#C8E3FF;
+  margin-left:40px;
+  border-radius:10px;
+}
+
+
 
 .footer{
   background-color: #29416D;
