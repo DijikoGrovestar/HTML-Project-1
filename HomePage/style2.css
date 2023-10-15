@@ -30,6 +30,7 @@ body{
         list-style: none;
         display: inline;
         font-family:Trebuchet MS;
+       
       }
     
 .corner-menu li:after{
@@ -41,13 +42,15 @@ body{
 .corner-menu ul li:last-child:after{
   content:"";
 } 
+
+
 .navbar{
         background-color: #162C44;
         margin-top:2em;
         padding:5px;
         clear:both; 
-border: 1px solid #000; 
-border-spacing:15px;
+/* border: 1px solid #000; 
+border-spacing:15px; */
         } 
         
 .navbar img{
@@ -75,7 +78,7 @@ border-spacing:15px;
     text-decoration: none;
     cursor: pointer;
     font-family:Trebuchet MS;
- 
+    text-align:right;
     } 
   
   .navbar ul li:after{
@@ -187,12 +190,22 @@ justify-content: space-around;
 
 .contact-button{
   font-family:Trebuchet MS;
-  font-size:14px;
-  background-color:#2A4F7B;
+  /* font-size:14px; */
+  /* background-color:#2A4F7B; */
   color:#C8E3FF;
   margin-left:40px;
-  border-radius:10px;
+  border-radius:5px;
+
+ 
+  background-image: linear-gradient(to top, #0A293D,#155D75 );
+margin-top: 8px;
+padding-right:20px;
+border:1px solid #136885;
+
+
 }
+
+
 
 
 
@@ -206,17 +219,26 @@ justify-content: space-around;
   padding-left:13em;
   padding-bottom:5px; 
   }
-.footer u{
-  color:#FEFFFF;
+
+  .footer a{
+    color:#FEFFFF;
+    font-size: 15px;
+  }
+
+  .footer a:after{
+    content:"|";
+    color:#EDF0F5;
+    padding-left:5px;
   }
   
-.footer span{
-  color:#EDF0F5;
-  margin-top:12px;
-  padding: 5px;
+  .footer a:before{
+    content:"";
+  
   }
-
-
+  
+  .footer a:last-child:after{
+    content:""
+  }
 
 
 
