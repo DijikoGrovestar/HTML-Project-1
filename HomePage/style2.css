@@ -46,11 +46,11 @@ body{
 
 .navbar{
         background-color: #162C44;
+        
         margin-top:2em;
         padding:5px;
         clear:both; 
-/* border: 1px solid #000; 
-border-spacing:15px; */
+        /* border: #707070 solid; */
         } 
         
 .navbar img{
@@ -64,9 +64,6 @@ border-spacing:15px; */
   line-height:1em;
   margin-left:3em;
 
-  /* border:1px solid #F8FFFD; */
-  /* border-spacing:5px; */
-  /* box-sizing: border-box; */
   }
 
   .navbar ul li{
@@ -104,22 +101,31 @@ border-spacing:15px; */
     }
           
 .content{
- background-color:#10223A;
- margin-top:3em;
- padding:2px;
- display:flex;
+
+margin-top:3em;
+padding:2px;
+display:flex;
 justify-content: space-around;
+
+background-color: #0E1A32
+
 }
 
 .content-section{
-  display:flex;
-  justify-content: space-round;
-  padding:20px;
+    display:flex;
+  justify-content: space-around;
+  padding: 20px;
+  /* background: linear-gradient(to top, rgba(25, 35, 55, 0.5), rgba(0, 0, 25, 0.5)); */
 }
 
+
+
 .image-section-links{
-  border:20px 0px;
-  color:red;
+  padding: 10px 0px;
+  
+  border-top:1px solid #5F6474;
+
+  border-bottom:1px solid #5F6474;
 }
 
 .image-section-links ol{
@@ -127,6 +133,7 @@ justify-content: space-around;
   margin-top:0px;
   line-height:24px;
   padding:0px;
+  margin-bottom:0px;
 }
 
 .image-section-links a{
@@ -135,6 +142,7 @@ justify-content: space-around;
   justify-content:flex-start;
   margin-left:2px;
   font-size:14px;
+  
 }
 
  .image{
@@ -160,9 +168,11 @@ justify-content: space-around;
   color:#FFFFFF;
   font-family:Trebuchet MS;
   font-size:14px;
-  line-height:20px;
+  line-height:24px;
   margin:20px 10px;
 }
+
+
 
 .services-content ul{
   padding-left:45px;
@@ -171,7 +181,7 @@ justify-content: space-around;
 .services-content li{
   padding-left:0px;
   color:#FFFFFF;
-  line-height:20px;
+  line-height:24px;
   font-size:14px;
   font-family:Trebuchet MS;
 }
@@ -184,30 +194,32 @@ justify-content: space-around;
   font-family:Trebuchet MS;
   font-size:14px;
   color:#FFFFFF;
-  padding-top: 25px;
-  padding-left:3em;
+  
+  padding-left:2em;
 }
+
+.request{
+  margin:20px;
+  padding:0px;
+  border-top:1px solid #5F6474;
+  border-bottom:1px solid #5F6474;
+  margin-top:34px;
+  background-color: #0A293D;
+}
+
+
 
 .contact-button{
-  font-family:Trebuchet MS;
-  /* font-size:14px; */
-  /* background-color:#2A4F7B; */
-  color:#C8E3FF;
-  margin-left:40px;
-  border-radius:5px;
+font-family:Trebuchet MS;
+color:#C8E3FF;
+margin-left:34px;
+border-radius:5px;
+background-image: linear-gradient(to top, #0A293D,#155D75 );
 
- 
-  background-image: linear-gradient(to top, #0A293D,#155D75 );
-margin-top: 8px;
-padding-right:20px;
 border:1px solid #136885;
-
+margin-bottom:15px;
 
 }
-
-
-
-
 
 .footer{
   background-color: #29416D;
