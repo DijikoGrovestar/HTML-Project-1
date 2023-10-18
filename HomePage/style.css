@@ -58,6 +58,8 @@ body {
   border: 1px solid #707070;
 }
 
+
+
 .navbar-logo {
   position: absolute;
   top: 8px;
@@ -71,10 +73,10 @@ body {
   padding-left:24em;
 }
 
-.navbar-section li {
+/* .navbar-section li {
   display: inline;
 
-}
+} */
 
 .navbar-section  a {
   color: #8cb0ca;
@@ -88,7 +90,14 @@ body {
 .navbar-section ul li:after {
   content: "|";
   color: #ffffff;
+  vertical-align: text-bottom;
 }
+
+.navbar-section li{
+  display:inline-block;
+}
+
+
 
 .navbar-section ul li:last-child:after {
   content: "";

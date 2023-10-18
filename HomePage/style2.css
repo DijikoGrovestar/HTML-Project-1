@@ -37,6 +37,7 @@ body {
   content: "|";
   color: #8cb0ca;
   padding-left:2px;
+ 
 }
 
 .corner-menu ul li:last-child:after {
@@ -99,6 +100,7 @@ body {
 .navbar-section li:after {
   content: "|";
   color: #ffffff;
+  vertical-align: text-bottom;
 }
 
 .navbar-section li:last-child:after {
